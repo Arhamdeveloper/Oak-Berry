@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+   
+    height: 10vh;
+    position: fixed;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border to separate navbar */
+    z-index: 1000;
+    padding: 10px 0;
+}
+header > h1{
+    color: white;
+    line-height: 0.7em;
+}
+#real{
+    font-size: 0.6em;
+}
+header > ul{
+    display: flex;
+}
+header > ul > li{
+    list-style-type: none;
+    font-weight: bold;
+    padding: 1em;
+    color: white;
+}
+header > ul > li:hover {
+    cursor: pointer;
+}
+header > ul > button:hover {
+    cursor: pointer;
+}
+header > button{
+    background-color: #5ea51d;
+    color: white;
+    border: none;
+    padding: 1em;
+    width: 15%;
+    border-radius: 1em;
+}
+
+#slider{
+    width: 99.%;
+    height: 99.6vh;
+    /* border: 1px solid red; */
+    background-image: url(img/slider.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#slider>h1{
+    color: white;
+    font-size: 4em;
+    font-weight: normal;
+    margin-top: 2em;
+}
+#slider >p{
+    color: white;
+    text-align: center;
+}
+#slider > button{
+    background-color: #5ea51d;
+    color: white;
+    border: none;
+    padding: 1em;
+    width: 15%;
+  
+}
+#slider > button:hover{
+    cursor: pointer;
+}
+#container{
+    width: 99.8%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#container>h5{
+    color: #5ea51d;
+}
+#container>h1{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+#card1{
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    align-items: center;
+}
+.arham{
+    width: 20%;
+    height: 40vh;
+    background-color: #f3f5f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.arham:hover{
+    color: white;
+    background-color: #5ea51d;
+}
+.arham>i{
+    font-size: 3em;
+}
+.arham>p{
+    font-size: 1.4em;
+}
+#container2{
+    width: 99%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h5{
+    color: #5ea51d;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#card2{
+    width: 99%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+.ar{
+    width: 23%;
+    height: 60vh;
+    /* border: 1px solid blue; */
+    background-color: white;
+    box-shadow: 1px 2px 25px 0px rgba(0, 0, 0, 0.26);
+-webkit-box-shadow: 1px 2px 25px 0px rgba(0, 0, 0, 0.26);
+-moz-box-shadow: 1px 2px 25px 0px rgba(0, 0, 0, 0.26);
+}
+#john{
+    width: 100%;
+    height: 20vh;
+}
+#men{
+    width: 20%;
+    height: 40%;
+    border-radius: 10em;
+    margin-left: 1em;
+    display: inline-block;
+}
+#s{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid blue; */
+    padding: 0px;
+}
+#ago{
+    color: rgb(112, 106, 106);
+    font-size: 0.7em;
+}
+#ae{
+    color: #5ea51d;
+    margin-left: 1em;
+    display: inline-block;
+}
+#sale{
+    background-color: #5ea51d;
+    color: white;
+    padding: 0.2em;
+    display: inline-block;
+}
+#z{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+#bed{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+#fa{
+    color: #99a2bf;
+    margin-left: 2em;
+}
+#th{
+    color: #99a2bf;
+    margin-left: 0.6em;
+}
+#to{
+    color: #99a2bf;
+    margin-left: 1em;
+}
+#t{
+    color: #99a2bf;
+    margin-left: 0.6em;
+}
+.sale1{
+    background-color: #fd5c64;
+    color: white;
+    padding: 0.2em;
+    display: inline-block;
+}
